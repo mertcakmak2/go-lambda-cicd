@@ -22,10 +22,10 @@ jobs:
       run: go mod tidy
 
     - name: Build the Go binary
-      run: GOOS=linux GOARCH=amd64 go build -o main main.go
+      run: GOOS=linux GOARCH=amd64 go build -o bootstrap main.go
 
     - name: Zip the binary
-      run: zip function.zip main
+      run: zip function.zip bootstrap
 
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
