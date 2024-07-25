@@ -6,7 +6,7 @@ import (
 )
 
 func handler(ctx context.Context) (string, error) {
-	return "Merhaba, bu bir Lambda fonksiyonundan dönen string değerdir dz!", nil
+	return "Merhaba, bu bir Lambda fonksiyonundan dönen string değerdir dzz!", nil
 }
 
 func main() {
