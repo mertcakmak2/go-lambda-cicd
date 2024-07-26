@@ -6,7 +6,7 @@ import (
 )
 
 func handler(ctx context.Context) (string, error) {
-	return "Hello from AWS Lambdaa!", nil
+	return "Hello from AWS Lambda!", nil
 }
 
 func main() {
